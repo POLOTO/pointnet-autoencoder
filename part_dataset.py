@@ -135,7 +135,7 @@ if __name__ == '__main__':
     tic = time.time()
     i = 100
     ps, seg = d[i]
-    print np.max(seg), np.min(seg)
+    print(np.max(seg), np.min(seg))
     print(time.time() - tic)
     print(ps.shape, type(ps), seg.shape,type(seg))
     sys.path.append('utils')
